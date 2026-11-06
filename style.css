@@ -108,30 +108,3 @@ h2 {
   background: #6555ac;
   color: white;
 }
-
-/* Responsive Design */
-
-@media (max-width: 600px) {
-  .keyboard-container {
-    padding: 12px;
-  }
-
-  .row {
-    gap: 5px;
-  }
-
-  .key {
-    height: 45px;
-    font-size: 14px;
-    border-radius: 7px;
-  }
-
-  .delete,
-  .space {
-    font-size: 12px;
-  }
-
-  #textInput {
-    font-size: 16px;
-  }
-}
